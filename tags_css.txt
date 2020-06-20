@@ -1,0 +1,62 @@
+
+
+
+/* Isso é um comentario*/
+
+Tipos de estilização:
+
+Inline --> Escrever as propiedas na promia linha html
+<p style="color: red;">
+
+-------------------------------------------------------------------------------------------------------------------------
+Internal style sheet --> Folha de estilo interna para formatação. Escrever o css no propio header
+
+<head>
+	<title>Inline Style</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		p{
+			color: #a65e4f;
+		}
+
+		h1{
+			color:blue;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+-------------------------------------------------------------------------------------------------------------------------
+
+classe: Define um ou mais elementos de uma mesma classificaçãop
+id: id deve ser unico por elemento
+
+<head>
+	<title>Classes e IDs</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+
+		.paragraph{ -->classe, varias vezes por pagina
+			color: green;
+		}
+
+		#principal{ --> id, uma vez por pagina(estruturar parte principal, lateral, menu da esquerad sla o que mais)
+			
+		}
+
+
+	</style>
+
+	<body>
+
+		<p class = "paragraph"> Oi </p>
+
+	</body>
+
+
+

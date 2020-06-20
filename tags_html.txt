@@ -1,0 +1,96 @@
+HTML 5
+
+Selfclose --> Tags que fecham sozinhas, não precisam de fechamento <> </>
+
+
+Tags:
+	
+	<body background = "cor ou img">
+
+	<!-- Isso é um comentário-->
+
+	<meta charset="utf-8">  Define o tipo de codificação, utf-8 padrão que permite usar acentos etc
+
+	<p></p> - Paragrafos - Agrupam textos e pula uma linha depois deles
+
+	<h1></h1> até h6 - Headers, dão destaques aos textos, transforma em tituços/cabeçalhos
+
+	<hr> - Horizontal rule - Faz uma linha horizontal na pagina
+
+	<strong></strong> - Negrito ---> pode ser <b></b> tbm
+
+	<em></em> - Italico -----> pode ser <i></i> tbm
+
+	<u></u> - Underline
+
+	<strike></strike> - Linha no meio
+
+	<img src="" style=""> --> Insere imagem
+
+	<a href=""></a> --> links
+
+-------------------------------------------------------------------------------------------------------------------------
+	<table border="" width="" align="center,left,right"> -->tamanho da borda,largura
+
+		<thead> -->cabeçalho
+			<tr> ------>Linha
+				<td colspan ="" rowspan ="" height="">--->coluna, colspan faz ocupar "x" espaços na linha, exemplo se for 2 ele mergeia duas colunas em uma, rowspan é mesma coisa pra linha. Height altura
+
+				</td>
+			</tf>
+		</thead>
+
+		<tbody> -->corpo
+			<tr> ------>Linha
+				<td>--->coluna
+
+				</td>
+			</tf>
+		</tbody>
+
+	</table>
+--------------------------------------------------------------------------------------------------------------------
+	<ul type=""> -- type define o simbolo da bolinha de topico
+		<li></li>   -->Lista desordenada(topicos)
+	</ul>
+
+		Types do ul --> square,circle,disc,etc.
+--------------------------------------------------------------------------------------------------------------------
+	<ol type=""> -- type define o simbolo da bolinha de topico
+		<li></li>   -->Lista ordenada(topicos com numeros)
+	</ol>
+
+		Types do ol --> 1,A,a,I,i
+--------------------------------------------------------------------------------------------------------------------
+	<form action=""> --action seleciona qual pagina vai enviar o formulario
+
+		Login:<br>
+		<!-- Types: text,button,password,email,submit,radio,checkbox-->
+		<input type = "" name=""> Cria caixa de textos para usuário inserir dados,type é o tipo, name é o slug pra buscar os dados depois.
+
+		<input type = "radio" name="sexo" value="M"> Masculino   ---> Usando mesmo slug, so permite que um seja marcado
+		<input type = "radio" name="sexo" value="F"> Feminino
+
+		<input type = "checkbox" name="interesses"> Futebol
+		<input type = "checkbox" name="interesses"> Jogos
+		<input type = "checkbox" name="interesses"> Moda
+		<input type = "checkbox" name="interesses"> Cursos
+		<input type = "checkbox" name="interesses"> Nada
+
+
+		<select name="estado"> --> select cria uma caixa de seleção onde se seleciona só uma opção
+
+			<option value="sp">SP</option>
+			<option value="mg">MG</option>
+			<option value="rj">RJ</option>
+			<option value="rs">RS</option>
+
+		</select>
+
+
+	</form>
+-------------------------------------------------------------------------------------------------------------------------
+entities
+https://www.w3schools.com/html/html_entities.asp
+
+Caso precise escrever coisas que o HTML reconhece como codigo ou não reconhece(espaços em branco)

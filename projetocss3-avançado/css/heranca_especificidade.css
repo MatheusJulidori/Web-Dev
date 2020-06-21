@@ -1,0 +1,18 @@
+body{
+    color:chocolate;
+    font-family: "Trebuchet MS",Haettenschweiler,sans-serif;
+}
+/*Todos os componentes dentro do body herdam essa caracteristica,com excessão de bordas e background*/
+/*Quanto mais especifico for o seletor,a regra mais especifica será aplicada()Terá procedencia sobre regras mais gerais*/
+
+h2{
+    color:blue;
+}
+
+h2.verde{
+    color:green;
+}
+
+h2#vermelho{
+    color: red;
+}

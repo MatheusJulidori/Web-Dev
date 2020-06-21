@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe4b445-6673-4a29-88f1-a48e84db441c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_ficticio_tecblog/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projeto_ficticio_tecblog/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_ficticio_tecblog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projeto_ficticio_tecblog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592682787813</updated>
-      <workItem from="1592682788986" duration="12416000" />
+      <workItem from="1592682788986" duration="13252000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 47">
       <created>1592691338965</created>
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592693489795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fim do projeto aula 51">
+      <created>1592696369847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592696369847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,21 +87,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aula 47" />
     <MESSAGE value="Aula 48 e Inicio projeto aula 49" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 48 e Inicio projeto aula 49" />
+    <MESSAGE value="Fim do projeto aula 51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim do projeto aula 51" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1592693487856">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1592696368945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592693487856" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592696368945" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592688286352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592688286352" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592693511541">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592700271900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592693511541" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592700271900" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1592691491063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

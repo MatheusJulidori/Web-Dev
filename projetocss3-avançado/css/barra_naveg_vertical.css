@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;/*Remove bolinhas*/
+    margin: 0;
+    padding: 0;
+}
+
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url("../img/menu.png") no-repeat left bottom;
+    color: black;
+    /*Line height coloca  a linha com 40px de altura total*/
+    text-decoration: none;
+    text-indent: 30px;
+    line-height:40px ;
+}
+
+ul a:hover{
+    background-position: right bottom;
+    color: white;
+}
+
+

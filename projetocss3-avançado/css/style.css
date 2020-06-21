@@ -1,0 +1,66 @@
+/*Seletor Universal*/
+
+* {
+   font-family: "Trebuchet MS",Helvetica,sans-serif;
+}
+
+/********************
+
+Seletor de texto*/
+
+
+h1 {
+   color: #0EB426;
+}
+
+/*********************
+
+Seletor de Classe*/
+
+.amarelo{
+   color: #797909;
+}
+
+.vermelho{
+   color: red;
+}
+/*********************
+
+Seletor de Classe para textos(seleciona todos os P com classe vermelho)*/
+p.vermelho{
+   text-decoration: underline;
+}
+/*********************
+
+Seletor de Id*/
+#cabecalho{
+   border: 2px solid bisque;
+   padding: 0 10px;
+}
+/*********************
+
+Seletor de Filhos(seleciona todos os A que são filhos de Li)*/
+li>a{
+   text-decoration: none;
+}
+
+/*********************
+
+Seletor de descendente(Seleciona todos os A que estão diratamente ou indiretamente dentro de um Li)*/
+li a{
+   color: deeppink;
+}
+
+
+/*********************
+
+Seletor de irmão direto(Só seleciona se o PROXIMO irmao de h2 for p)*/
+h2+p{
+   font-size: 1.5em;
+}
+/*********************
+
+Seletor de irmão total(Seleciona TODOS os p que são irmao de h2)*/
+h2~p{
+   font-style: italic;
+}

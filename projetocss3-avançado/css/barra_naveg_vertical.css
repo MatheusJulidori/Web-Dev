@@ -9,7 +9,7 @@ ul a{
     width: 200px;
     height: 40px;
     display: block;
-    background: url("../img/menu.png") no-repeat left bottom;
+    background: #f7b600 url("../img/menu.png") no-repeat left bottom;
     color: black;
     /*Line height coloca  a linha com 40px de altura total*/
     text-decoration: none;
@@ -19,7 +19,19 @@ ul a{
 
 ul a:hover{
     background-position: right bottom;
+    background-color: #f99200;
     color: white;
 }
+
+#home .home a,
+#servicos .servicos a,
+#sobre .sobre a,
+#noticias .noticias a,
+#contato .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
 
 

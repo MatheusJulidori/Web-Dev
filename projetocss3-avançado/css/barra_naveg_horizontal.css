@@ -1,0 +1,39 @@
+ul#navegacao-horizontal{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #159cb0 url("../img/fundo-horizontal.png") repeat-x;
+    float: left;
+}
+
+
+ul#navegacao-horizontal li{
+    float: left;
+}
+
+ul#navegacao-horizontal a{
+    display: block;
+    padding: 0 32px;
+    line-height: 40px;
+    text-decoration: none;
+    color:white;
+    background: url("../img/divisor.png") repeat-y left top;
+}
+
+ul#navegacao-horizontal .primeiro a{
+    background: none;
+}
+
+ul#navegacao-horizontal a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao-horizontal .home a,
+#servicos #navegacao-horizontal .servicos a,
+#sobre #navegacao-horizontal .sobre a,
+#noticias #navegacao-horizontal .noticias a,
+#contato #navegacao-horizontal .contato a {
+    color: #085662;
+    background: #44cade;
+}

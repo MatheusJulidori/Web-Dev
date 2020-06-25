@@ -1,0 +1,69 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background:  linear-gradient(to bottom, #643d87, lightcoral 60%, #c79912);
+    background:  -webkit-linear-gradient(to bottom, #643d87, lightcoral 60%, #c79912);
+    background:  -moz-linear-gradient(to bottom, #643d87, lightcoral 60%, #c79912);
+    background:  -o-linear-gradient(to bottom, #643d87, lightcoral 60%, #c79912);
+    background-size: 100vw 100vh;
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top:-60px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border:none;
+    padding-left: 40px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+
+
+input.email{
+    background-image: url("../img/icone-usuario.png")
+}
+
+input.password{
+    background-image: url("../img/icone-cadeado.png")
+}
+
+input.submit{
+    color:#fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom,#faa600, #f68a00);
+    background: -webkit-linear-gradient(to bottom,#faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom,#faa600, #f68a00);
+    background: -o-linear-gradient(to bottom,#faa600, #f68a00);
+}
+
+input.submit:active{
+    color:#fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom,#f68a00, #faa600);
+    background: -webkit-linear-gradient(to bottom,#f68a00, #faa600);;
+    background: -moz-linear-gradient(to bottom,#f68a00, #faa600);;
+    background: -o-linear-gradient(to bottom,#f68a00, #faa600);;
+}

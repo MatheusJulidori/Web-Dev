@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+
+        <link rel="stylesheet" type="text/css" href="css/estilizando_formularios.css">
+    </head>
+    <body>
+        <h2>Estilizando Formularios</h2>
+        <div id="form-wrapper">
+            <form>
+                <fieldset>
+                    <legend>Detalhes de contato</legend>
+
+                    <div>
+                        <label for="nome">Nome:</label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                        <input type="text" name="nome" id="nome">
+                    </div>
+
+                    <div>
+                        <label for="email">e-mail:</label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="url">URL:</label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                        <input type="url" name="url" id="url">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentários</legend>
+
+                    <div>
+                        <label for="coments">Mensagem:</label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                        <textarea name="msg" id="coments"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Lembrar de mim</legend>
+
+                    <div>
+                        <label for="coments">
+                            <input type="radio" name="remember" id="sim">Sim
+                        </label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                    </div>
+
+                    <div>
+                        <label for="coments">
+                            <input type="radio" name="remember" id="nao">Não
+                        </label> <!--parametro for tem que ser o mesmo id do input. Outra saida seria envolver o input com o label(finalizar o label dps de finalizar input)-->
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+    </body>
+</html>

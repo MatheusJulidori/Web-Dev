@@ -1,0 +1,41 @@
+body{
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #f8f8f8;
+    margin: 1em 0;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    cursor:pointer;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="radio"]{
+    margin-right: 1em;
+}
+
+textarea#coments{
+    height: 10em;
+    width: 100%;
+}
+
+#form-wrapper{
+    max-width: 1280px;
+    margin: auto;
+}

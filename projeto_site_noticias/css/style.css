@@ -1,0 +1,285 @@
+/*Formatação geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    background: white url("../img/fundo.png") repeat-x ;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+img {
+    border: 2px solid #dfdfdf;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 1.5em;
+    color: white;
+    background: #294c71;
+    padding: 5px;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    font-size: 0.9em;
+    width: 125px;
+    background: white;
+}
+
+/*Cabeçalho*/
+#topo{
+    height: 150px;
+    background: url("../img/detalhe-topo.png") no-repeat right top;
+    padding-top: 25px;
+}
+    /*Logo*/
+    .logo{
+        width: 152px;
+        height: 66px;
+        background: url("../img/logo.png");
+        text-indent: -3000px;/*Esconder o escrito, aparece só se o css não carregar*/
+    }
+
+    /*Barra de navegação Horizontal*/
+
+    #topo ul{
+        margin-top: 30px;
+        background: #b10333;
+        float: left;
+    }
+
+    #topo ul li {
+        float: left;
+    }
+
+    #topo ul a{
+        font-size: 0.9em;
+        padding: 0.5em 1.5em;
+        display: block;
+        line-height: 2.1em;
+        text-decoration: none;
+        color: white;
+        background: url("../img/divisor.png") no-repeat top left;
+    }
+
+    #topo ul .primeiro a{
+        background: none;
+
+    }
+
+    #topo ul a:hover{
+        color: #69001d;
+    }
+
+    body.home #navegacao a#home,
+    body.brasil #navegacao a#brasil,
+    body.internacional #navegacao a#internacional,
+    body.fotos #navegacao a#fotos
+    {
+        color: white;
+        background: #de003e;
+        cursor: default;
+    }
+
+/*Colunas*/
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 191px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0  20px -750px;
+}
+
+#container-rodape{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+
+/*Caixas de conteudo*/
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url("../img/fundo-caixa.png");
+}
+
+
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Conteudo lateral*/
+
+    /*Entrevistas*/
+    #lateral ul a{
+        font-size: 0.9em;
+        padding: 3px;
+        display: block;
+        line-height: 30px;
+        color: #000;
+        text-decoration: none;
+        border-bottom: 1px solid #f3f3f3;
+    }
+
+    #lateral ul a:hover{
+        background:url("../img/marcador.png") no-repeat left center;
+        padding-left: 20px;
+        color: #8e8e8e;
+        font-style: italic;
+    }
+
+    /*News*/
+
+    input.submit{
+        width: 80px;
+        border: 2px solid #870529;
+        background-color: #b10333;
+        color: white;
+        cursor: pointer;
+    }
+
+    input.submit:active{
+        width: 80px;
+        border: 2px solid #870529;
+        background-color: #ec1951;
+        color: white;
+        cursor: pointer;
+    }
+
+/*Conteudo Principal*/
+
+img.imagem-pricipal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+    /*Destaque*/
+    .destaque h3{
+        background-color: #b10333;
+        color: white;
+        border: 1px solid black;
+    }
+
+    /*Mundo*/
+    #lista-noticias li{
+        padding: 2px;
+        border-bottom: 2px solid #CCCCCC;
+        height: 65px;
+    }
+    #lista-noticias li a img{
+        float: left;
+        margin: 5px;
+    }
+    #lista-noticias li a{
+        text-decoration: none;
+    }
+
+    #lista-noticias li a h3{
+        font-size: 0.8em;
+        padding: 0;
+        color: #007fc7;
+    }
+    #lista-noticias li a p{
+        color: black;
+        font-size: 0.6em;
+    }
+    #lista-noticias li:hover{
+        cursor: pointer;
+        background: #eee;
+    }
+
+/*Conteudo Secundaria*/
+
+    /*Entrevista*/
+    .entrevista h3{
+        background: #de003e;
+        color: black;
+        border: 1px solid black;
+    }
+
+    /*Recentes*/
+    #recentes li{
+        padding: 2px;
+        border-bottom: 2px solid #CCCCCC;
+        height: 65px;
+    }
+    #recentes li a img{
+        float: left;
+        margin: 5px;
+    }
+    #recentes li a{
+        text-decoration: none;
+    }
+
+    #recentes li a h3{
+        font-size: 0.8em;
+        padding: 0;
+        color: #007fc7;
+    }
+    #recentes li a p{
+        color: black;
+        font-size: 0.6em;
+    }
+    #recentes li:hover{
+        cursor: pointer;
+        background: #eee;
+    }
+
+#rodape{
+    color: white;
+    width: 750px;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,64 @@
+body,html{
+    margin: 0;
+    font: 16px "Lato",sans-serif;
+    color: #777;
+    height: 100%;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+/*Efeito Paralax*/
+
+.imagem1, .imagem2, .imagem3, .imagem4{
+    height: 100%;
+    opacity: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagem1{
+    background-image: url("../img/imagem1.jpg");
+}
+
+.imagem2{
+    background-image: url("../img/imagem2.jpg");
+}
+
+.imagem3{
+    background-image: url("../img/imagem3.jpg");
+}
+
+.imagem4{
+    background-image: url("../img/imagem4.jpg");
+}
+
+.bloco{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.bloco span.titulo{
+    padding: 18px;
+    background-color: #444;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}

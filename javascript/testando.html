@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login e Cadastro</title>
+
+        <script>
+
+            var email_Cadastro
+            var senha_Cadastro
+            function cadastrar() {
+                email_Cadastro = document.getElementById('cadastro_email').value
+                senha_Cadastro = document.getElementById('cadastro_senha').value
+            }
+
+            function logar() {
+                let email_login = document.getElementById('login_email').value
+                let senha_login = document.getElementById('login_senha').value
+                if(email_Cadastro===email_login && senha_Cadastro ===senha_login){
+                    alert("Logado com sucesso")
+                }else{
+                    alert("Email ou senha incorretos")
+                }
+
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <h3>Cadastro</h3>
+
+        <form id="cadastro">
+            <input id= "cadastro_email" name="cadastro_email" placeholder="Entre com seu email" style="margin-bottom: 10px">
+            <br>
+            <input id= "cadastro_senha" name="cadastro_senha" placeholder="Entre com sua senha" style="margin-bottom: 10px">
+            <button type="submit" form="cadastro" formaction="" formmethod="post">Cadastrar</button>
+        </form>
+
+        <hr>
+
+        <h3>Login</h3>
+        <form>
+            <input id="login_email" name="login_email" placeholder="Entre com seu email" style="margin-bottom: 10px">
+            <br>
+            <input id="login_senha" name="login_senha" placeholder="Entre com sua senha" style="margin-bottom: 10px">
+            <button type="submit" form="cadastro" formaction="" formmethod="get">Logar</button>
+        </form>
+
+        <script>
+        </script>
+
+    </body>
+</html>
